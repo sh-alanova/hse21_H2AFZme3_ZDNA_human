@@ -16,7 +16,7 @@ library(dplyr)
 getwd()
 
 ###
-setwd("C:/Users/Ilya_Pakhalko/Documents/BioProject")
+setwd("https://github.com/sh-alanova/hse21_H3K36me3_ZDNA_human/tree/main/graphs")
 bed_df <- read.delim(paste0(DATA_DIR, NAME, '.bed'), as.is = TRUE, header = FALSE)
 #colnames(bed_df) <- c('chrom', 'start', 'end', 'name', 'score')
 colnames(bed_df) <- c('chrom', 'start', 'end')
